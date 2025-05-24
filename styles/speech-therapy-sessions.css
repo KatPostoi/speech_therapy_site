@@ -1,0 +1,54 @@
+.speech-therapy-sessions{
+  margin-top: 90px;
+}
+
+.speech-therapy-sessions .logo-lessons-section{
+  padding-bottom: 90px;
+}
+
+.speech-therapy-sessions .logo-lessons-section .logo-lessons__title{
+  padding: 15px;
+  color: var(--color-green);
+  margin: 0;
+  font-weight: normal;
+}
+
+.speech-therapy-sessions .logo-lessons-section .cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--indent-l);
+}
+
+.speech-therapy-sessions .logo-lessons-section .cards-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: var(--indent-l);
+}
+
+.speech-therapy-sessions .logo-lessons-section .card {
+  flex-grow: 1;
+  border: solid var(--color-green) 5px;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speech-therapy-sessions .logo-lessons-section .card_1 {
+  letter-spacing: -0.5px;
+}
+
+.speech-therapy-sessions .logo-lessons-section .sign-up-button {
+  flex-grow: 1;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+}
+
+.speech-therapy-sessions .logo-lessons-section .sign-up-button:hover {
+  background-color: var(--color-black);
+}

@@ -1,0 +1,54 @@
+.speech-therapy-massage{
+  margin-top: 90px;
+}
+
+.speech-therapy-massage .logo-massage-section{
+  padding-bottom: 90px;
+}
+
+.speech-therapy-massage .logo-massage-section .logo-massage__title{
+  padding: 15px;
+  color: var(--color-lightgreen);
+  margin: 0;
+  font-weight: normal;
+}
+
+.speech-therapy-massage .logo-massage-section .cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--indent-l);
+}
+
+.speech-therapy-massage .logo-massage-section .cards-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: var(--indent-l);
+}
+
+.speech-therapy-massage .logo-massage-section .card {
+  flex-grow: 1;
+  border: solid var(--color-lightgreen) 5px;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speech-therapy-massage .logo-massage-section .card_1 {
+  letter-spacing: -0.5px;
+}
+
+.speech-therapy-massage .logo-massage-section .sign-up-button {
+  flex-grow: 1;
+  background-color: var(--color-lightgreen);
+  color: var(--color-white);
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+}
+
+.speech-therapy-massage .logo-massage-section .sign-up-button:hover {
+  background-color: var(--color-black);
+}

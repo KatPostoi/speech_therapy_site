@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speech therapy sessions</title>
+  <link rel="stylesheet" href="../styles/root.css" />
+  <link rel="stylesheet" href="../styles/footer.css" />
+  <link rel="stylesheet" href="../styles/header.css" />
+  <link rel="stylesheet" href="../styles/sign-up-for-a-lesson.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/bootstrap/index.css">
+</head>
+
+<body class="prata-regular">
+  <header class="header">
+    <div class="items-wrapper">
+      <div class="logotip">
+        <div class="logotip__img">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="50" height="50" fill="#2E2F32" />
+          </svg>
+        </div>
+        <div class="logotip__title fonts-size-60">
+          ЛОГОПЕДиЯ
+        </div>
+      </div>
+      <div class="navigation">
+        <a href="https://t.me/govoryu24" target="_blank" class="custom-link">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2.5" y="2.5" width="44.8682" height="44.8682" rx="12.5" stroke="currentColor" stroke-width="5" />
+            <path d="M15.9569 21.6096L12.9648 15.9579L36.4029 15.9579L24.9332 37.0687L18.4504 26.0977L33 18"
+              stroke="currentColor" stroke-width="5" />
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/logoped_elena_rnd_" target="_blank" class="custom-link">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2.5" y="2.5" width="44.8682" height="44.8682" rx="12.5" stroke="currentColor" stroke-width="5" />
+            <circle cx="24.4358" cy="24.4358" r="9.96706" stroke="currentColor" stroke-width="5" />
+            <circle cx="36.9025" cy="11.968" r="2.5" fill="currentColor" stroke="currentColor" stroke-width="2.97892" />
+          </svg>
+        </a>
+        <div class="menu">
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+          <label for="burger-checkbox" class="burger"></label>
+          <ul class="menu-list">
+            <li class="line">
+            </li>
+            <li><a href="/speech_therapy_site/pages/index.html#start" class="menu-item custom-link">Наши уроки</a>
+            <li>
+            <li><a href="/speech_therapy_site/pages/index.html#facts" class="menu-item custom-link">Факты, которые
+                говорят</a>
+            <li>
+            <li><a href="/speech_therapy_site/pages/index.html#teacher" class="menu-item custom-link">Ваш педагог</a>
+            <li>
+            <li><a href="/speech_therapy_site/pages/index.html#questions" class="menu-item custom-link">Часто задаваемые
+                вопросы</a>
+            <li>
+            <li><a href="/speech_therapy_site/pages/sign-up-for-a-lesson.html" class="menu-item custom-link">Записаться
+                на урок</a>
+            <li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="losung-header fonts-size-80">
+      РАЗВИВАЕМ РЕЧЬ,
+    </div>
+    <div class="losung-header fonts-size-80 losung-header_2">
+      ОТКРЫВАЕМ МИР!
+    </div>
+  </header>
+  <main class="sign-up-for-a-lesson">
+    <section class="container-fluid text-center sign-up-for-a-lesson-form fonts-size-24">
+
+      <div class="row">
+        <h2 class="col text-start fonts-size-48">
+          Записаться на&nbsp;<span class="text-color-blue">урок</span>
+        </h2>
+      </div>
+
+      <fieldset class="row sign-up-for-a-lesson-form-body">
+        <div class="col">
+          <input type="radio" name="form-step" checked id="section-1-checkbox"
+            class="section-checkbox section-1-checkbox">
+          <label for="section-1-checkbox" class="section-1-checkbox-title section-checkbox-title">
+            <svg width="100" height="330" viewBox="0 0 100 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.715001 331V322.74L29.625 318.61V12.99L0.715001 8.85999V0.599995H70.925V318.61L99.835 322.74V331H0.715001Z"
+                fill="currentColor" />
+            </svg>
+          </label>
+          <form class="section-subform section-1-subform">
+            <div class="mb-3 input-wrapper">
+              <label for="parrent-name" class="form-label text-start w-100">Имя родителя</label>
+              <input type="email" class="form-control" id="parrent-name">
+            </div>
+            <div class="mb-3 input-wrapper">
+              <label for="child-name" class="form-label text-start w-100">Имя ребенка</label>
+              <input type="email" class="form-control" id="child-name">
+            </div>
+            <div class="mb-3 input-wrapper">
+              <label for="child-age" class="form-label text-start w-100">Возраст ребенка</label>
+              <input type="email" class="form-control" id="child-age">
+            </div>
+            <div class="mb-3 input-wrapper">
+              <label for="child-age" class="form-label text-start w-100">Контактный телефон</label>
+              <input type="email" class="form-control" id="child-age" placeholder="+ 7 (ХХХ) ХХХ ХХ ХХ ">
+            </div>
+          </form>
+        </div>
+
+        <div class="col">
+          <input type="radio" name="form-step" id="section-2-checkbox" class="section-checkbox section-2-checkbox">
+          <label for="section-2-checkbox" class="section-2-checkbox-title section-checkbox-title">
+            <svg width="204" height="331" viewBox="0 0 204 331" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.314001 299.969L85.347 213.324C107.646 190.219 124.572 167.785 136.125 146.023C147.946 123.992 153.857 101.29 153.857 77.916C153.857 54.2733 148.752 37.0787 138.543 26.332C128.602 15.3166 115.035 9.80898 97.84 9.80898C84.4067 9.80898 72.7197 13.436 62.779 20.69C52.8383 27.944 47.868 37.4817 47.868 49.303C47.868 63.5423 54.9877 74.1547 69.227 81.14C69.227 90.812 66.2717 98.2003 60.361 103.305C54.4503 108.41 47.465 110.962 39.405 110.962C30.8077 110.962 23.4193 107.872 17.24 101.693C11.0607 95.245 7.971 86.5133 7.971 75.498C7.971 60.99 12.404 48.094 21.27 36.81C30.136 25.2573 41.9573 16.3913 56.734 10.212C71.5107 3.76398 87.362 0.539979 104.288 0.539979C137.065 0.539979 161.38 8.33132 177.231 23.914C193.082 39.228 201.008 59.5123 201.008 84.767C201.008 100.081 197.784 114.186 191.336 127.082C185.157 139.709 177.634 150.725 168.768 160.128C160.171 169.531 148.349 180.815 133.304 193.98L122.02 203.652L25.703 288.685H176.022L192.545 229.041H203.023V331H0.314001V299.969Z"
+                fill="currentColor" />
+            </svg>
+          </label>
+          <form class="section-subform section-2-subform">
+            <div class="mb-5 w-100">
+              <fieldset class="fields-select-one cols-2">
+                <legend class="legend cols-2">Выберите направление, в котором Вы хотите работать</legend>
+                <input type="radio" name="work-direction" id="work-direction-checkbox-1"
+                  class="work-direction-checkbox">
+                <label for="work-direction-checkbox-1" class="fields-select-one-title work-direction-checkbox-title">
+                  Логопедические занятия
+                </label>
+                <input type="radio" name="work-direction" id="work-direction-checkbox-2"
+                  class="work-direction-checkbox">
+                <label for="work-direction-checkbox-2" class="fields-select-one-title work-direction-checkbox-title">
+                  Логопедический массаж
+                </label>
+                <input type="radio" name="work-direction" id="work-direction-checkbox-3"
+                  class="work-direction-checkbox">
+                <label for="work-direction-checkbox-3" class="fields-select-one-title work-direction-checkbox-title">
+                  Подготовка к школе
+                </label>
+              </fieldset>
+            </div>
+            <div class="mb-5 w-100">
+              <fieldset class="fields-select-one cols-4">
+                <legend class="legend cols-4">Укажите, сколько раз в неделю Вы планируете заниматься</legend>
+                <div></div>
+                <input type="radio" name="count-day" id="count-day-checkbox-1" class="count-day-checkbox">
+                <label for="count-day-checkbox-1" class="fields-select-one-title work-count-day-checkbox-title">
+                  1 раз
+                </label>
+                <input type="radio" name="count-day" id="count-day-checkbox-2" class="count-day-checkbox">
+                <label for="count-day-checkbox-2" class="fields-select-one-title work-count-day-checkbox-title">
+                  2 раза
+                </label>
+                <input type="radio" name="count-day" id="count-day-checkbox-3" class="count-day-checkbox">
+                <label for="count-day-checkbox-3" class="fields-select-one-title count-day-checkbox-title">
+                  3 раза
+                </label>
+                <div></div>
+                <div></div>
+                <input type="radio" name="count-day" id="count-day-checkbox-4" class="count-day-checkbox">
+                <label for="count-day-checkbox-4" class="fields-select-one-title count-day-checkbox-title">
+                  4 раза
+                </label>
+                <input type="radio" name="count-day" id="count-day-checkbox-5" class="count-day-checkbox">
+                <label for="count-day-checkbox-5" class="fields-select-one-title count-day-checkbox-title">
+                  5 раз
+                </label>
+              </fieldset>
+            </div>
+          </form>
+        </div>
+
+        <div class="col">
+          <input type="radio" name="form-step" id="section-3-checkbox" class="section-checkbox section-3-checkbox">
+          <label for="section-3-checkbox" class="section-3-checkbox-title section-checkbox-title">
+            <svg width="207" height="331" viewBox="0 0 207 331" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M88.931 330.86C72.687 330.86 57.753 327.716 44.129 321.428C30.767 315.14 20.156 306.625 12.296 295.883C4.436 285.141 0.506001 273.089 0.506001 259.727C0.506001 248.985 3.519 240.601 9.545 234.575C15.571 228.287 22.776 225.143 31.16 225.143C39.02 225.143 45.832 227.632 51.596 232.61C57.36 237.588 60.242 244.793 60.242 254.225C46.356 261.037 39.413 271.517 39.413 285.665C39.413 296.407 43.867 305.184 52.775 311.996C61.945 318.546 73.997 321.821 88.931 321.821C107.795 321.821 123.122 314.747 134.912 300.599C146.702 286.451 152.597 266.67 152.597 241.256C152.597 213.746 144.737 192.524 129.017 177.59C113.297 162.394 90.11 153.879 59.456 152.045V143.399C86.966 141.827 108.319 134.491 123.515 121.391C138.973 108.029 146.702 90.082 146.702 67.55C146.702 49.996 141.855 35.979 132.161 25.499C122.729 15.019 110.022 9.77898 94.04 9.77898C79.63 9.77898 68.233 12.268 59.849 17.246C51.727 21.962 47.666 28.643 47.666 37.289C47.666 51.175 54.216 61.131 67.316 67.157C67.316 76.065 64.565 83.008 59.063 87.986C53.823 92.702 47.404 95.06 39.806 95.06C31.946 95.06 25.134 92.047 19.37 86.021C13.606 79.995 10.724 72.004 10.724 62.048C10.724 50.258 14.785 39.778 22.907 30.608C31.029 21.176 41.771 13.84 55.133 8.6C68.757 3.35998 83.167 0.739979 98.363 0.739979C128.231 0.739979 151.549 6.76598 168.317 18.818C185.085 30.87 193.469 47.769 193.469 69.515C193.469 92.309 185.216 109.994 168.71 122.57C152.466 134.884 128.755 143.137 97.577 147.329V148.508C130.327 150.08 156.658 158.857 176.57 174.839C196.744 190.559 206.831 212.698 206.831 241.256C206.831 257.238 202.377 272.041 193.469 285.665C184.823 299.289 171.592 310.293 153.776 318.677C136.222 326.799 114.607 330.86 88.931 330.86Z"
+                fill="currentColor" />
+            </svg>
+          </label>
+          <form class="section-subform section-3-subform">
+            <div class="mb-5 w-100">
+              <fieldset class="fields-select-one cols-7">
+                <legend class="legend cols-7">Выберите удобный день недели, дату</legend>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-1" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-1" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Пн.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    4
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-2" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-2" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Вт.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    5
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-3" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-3" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Ср.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    6
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-4" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-4" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Чт.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    7
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-5" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-5" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Пт.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    8
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-6" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-6" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Сб.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    9
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-7" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-7" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Вс.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    10
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-8" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-8" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Пн.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    11
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-9" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-9" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Вт.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    12
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-10" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-10" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Ср.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    13
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-11" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-11" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Чт.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    14
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-12" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-12" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Пт.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    15
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-13" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-13" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Сб.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    16
+                  </div>
+                </label>
+                <input type="radio" name="date-of-week" id="date-of-week-checkbox-14" class="date-of-week-checkbox">
+                <label for="date-of-week-checkbox-14" class="fields-select-one-title date-of-week-checkbox-title">
+                  <div>
+                    Вс.
+                  </div>
+                  <div class="line-date-of-week">
+                  </div>
+                  <div>
+                    17
+                  </div>
+                </label>
+              </fieldset>
+            </div>
+            <div class="mb-5 w-100">
+              <fieldset class="fields-select-one cols-4">
+                <legend class="legend cols-4 title-time">и время для записи</legend>
+                <div></div>
+                <input type="radio" name="time" id="time-checkbox-1" class="time-checkbox">
+                <label for="time-checkbox-1" class="fields-select-one-title work-time-checkbox-title">
+                  11:00-11:30
+                </label>
+                <input type="radio" name="time" id="time-checkbox-2" class="time-checkbox">
+                <label for="time-checkbox-2" class="fields-select-one-title work-time-checkbox-title">
+                  11:30-12:00
+                </label>
+                <input type="radio" name="time" id="time-checkbox-3" class="time-checkbox">
+                <label for="time-checkbox-3" class="fields-select-one-title time-checkbox-title">
+                  12:00-12:30
+                </label>
+                <div></div>
+                <input type="radio" name="time" id="time-checkbox-4" class="time-checkbox">
+                <label for="time-checkbox-4" class="fields-select-one-title time-checkbox-title">
+                  13:30-14:00
+                </label>
+                <input type="radio" name="time" id="time-checkbox-5" class="time-checkbox">
+                <label for="time-checkbox-5" class="fields-select-one-title time-checkbox-title">
+                  14:00-14:30
+                </label>
+                <input type="radio" name="time" id="time-checkbox-6" class="time-checkbox">
+                <label for="time-checkbox-6" class="fields-select-one-title time-checkbox-title">
+                  15:00-15:30
+                </label>
+              </fieldset>
+            </div>
+        </div>
+        </form>
+        </div>
+
+        <div class="col">
+          <input type="radio" name="form-step" id="section-4-checkbox" class="section-checkbox section-4-checkbox">
+          <label for="section-4-checkbox" class="section-4-checkbox-title section-checkbox-title">
+            <svg width="223" height="331" viewBox="0 0 223 331" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M101.185 331V322.327L139.181 316.132V251.704H0V243.031L175.112 0.599995H184.611V232.293H222.607V251.704H184.611V316.132L222.607 322.327V331H101.185ZM20.237 232.293H139.181V67.506L20.237 232.293Z"
+                fill="currentColor" />
+            </svg>
+
+          </label>
+          <form class="section-subform section-4-subform">
+            <div class="mb-5 input-wrapper">
+              <label for="email" class="form-label text-start w-100">Укажите эл. почту для подтверждения
+                записи</label>
+              <input type="email" class="form-control" id="email" placeholder="xxxxxxxxx_xxxx@gmail.com">
+            </div>
+            <a href="/speech_therapy_site/pages/index.html?open-model-success-record=1"
+              class="menu-item custom-link custom-button">
+              ОТПРАВИТЬ ЗАПИСЬ
+            </a>
+        </div>
+        </form>
+        </div>
+
+      </fieldset>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="cards-wrapper cards-wrapper_main">
+      <div class="cards-wrapper cards-wrapper_column">
+        <div class="card card_slogan fonts-size-48">
+          РАЗВИВАЕМСЯ С УЛЫБКОЙ!
+        </div>
+
+        <div class="cards-wrapper">
+          <div class="card card_telephone">
+            <div class="card_telephone-title">
+              КОНТАКТЫ
+            </div>
+            <div>
+              Тел.: +7 (922) 257 93 49
+            </div>
+          </div>
+
+          <div class="card card_address">
+            <div class="card_address-title">
+              АДРЕС
+            </div>
+            <div>
+              Доломановский пер., 55А, Ростов-на-Дону
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card_navigation">
+        <a href="/speech_therapy_site/pages/index.html#start" class="custom-link">
+          Наши уроки
+        </a>
+        <a href="/speech_therapy_site/pages/index.html#facts" class="custom-link">
+          Факты, которые говорят
+        </a>
+        <a href="/speech_therapy_site/pages/index.html#teacher" class="custom-link">
+          Ваш педагог
+        </a>
+        <a href="/speech_therapy_site/pages/index.html#questions" class="custom-link">
+          Часто задаваемые вопросы
+        </a>
+        <a href="/speech_therapy_site/pages/sign-up-for-a-lesson.html" class="custom-link">
+          Записаться на урок
+        </a>
+      </div>
+
+      <div class="cards-wrapper cards-wrapper_social cards-wrapper_column custom-link">
+        <div class="card card_social">
+          <a href="https://t.me/govoryu24" target="_blank" class="custom-link"><svg width="107" height="107"
+              viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="4" width="98.6667" height="98.6667" rx="21" stroke="currentColor" stroke-width="8" />
+              <path d="M34.1324 46.2221L27.7324 34.1333L77.8658 34.1333L53.3324 79.2888L39.4658 55.8221L72.5 37.5"
+                stroke="currentColor" stroke-width="8" />
+            </svg>
+          </a>
+        </div>
+        <div class="card card_social custom-link">
+          <a href="https://www.instagram.com/logoped_elena_rnd_" target="_blank" class="custom-link"><svg width="107"
+              height="107" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="4" width="98.6667" height="98.6667" rx="21" stroke="currentColor" stroke-width="8" />
+              <circle cx="52.2668" cy="52.2668" r="22.6667" stroke="currentColor" stroke-width="8" />
+              <circle cx="82.9332" cy="23.6002" r="8.53333" fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="../scripts/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

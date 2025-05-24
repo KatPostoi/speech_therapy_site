@@ -1,0 +1,54 @@
+.preparation-for-school{
+  margin-top: 90px;
+}
+
+.preparation-for-school .logo-school-section{
+  padding-bottom: 90px;
+}
+
+.preparation-for-school .logo-school-section .logo-school__title{
+  padding: 15px;
+  color: var(--color-red);
+  margin: 0;
+  font-weight: normal;
+}
+
+.preparation-for-school .logo-school-section .cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--indent-l);
+}
+
+.preparation-for-school .logo-school-section .cards-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: var(--indent-l);
+}
+
+.preparation-for-school .logo-school-section .card {
+  flex-grow: 1;
+  border: solid var(--color-red) 5px;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preparation-for-school .logo-school-section .card_1 {
+  letter-spacing: -0.5px;
+}
+
+.preparation-for-school .logo-school-section .sign-up-button {
+  flex-grow: 1;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+}
+
+.preparation-for-school .logo-school-section .sign-up-button:hover {
+  background-color: var(--color-black);
+}

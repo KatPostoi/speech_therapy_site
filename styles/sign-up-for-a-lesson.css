@@ -1,0 +1,113 @@
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form {
+  display: flex;
+  flex-direction: column;  
+  gap: var(--indent-s);
+  margin: 90px 0;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .row {
+  gap: var(--indent-s)
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .col {
+  background-color: var(--color-white);
+  padding: 30px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .sign-up-for-a-lesson-form-body .col{
+  height: 777px;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-checkbox-title {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  display: flex;
+  align-items: end;
+  padding-left: 30px;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  font-size: 200px;
+  color: var(--color-grey); 
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-checkbox-title svg:hover {
+  color: var(--color-blue);
+  transition: all 300ms ease-out;
+}
+
+
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-checkbox:checked ~ .section-checkbox-title {
+  color: var(--color-black);
+}
+
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-subform{
+  display: none;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-checkbox:checked ~ .section-subform {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 800px;
+  z-index: 1;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .input-wrapper{
+ width: 100%;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .input-wrapper input::placeholder{
+  color:  var(--color-white);
+ }
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .input-wrapper:nth-child(3),
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .input-wrapper:nth-child(4) {
+  width: 60%; 
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-3-subform .title-time {
+  align-self: end;
+  justify-self: end;
+  width: 73.5%; 
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-4-subform .input-wrapper {
+  display: grid;
+  gap: var(--indent-l);
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-3-subform .line-date-of-week {
+  border-bottom: solid 5px var(--color-black);
+  width: 100%;
+  border-radius: 25px;
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-3-subform .date-of-week-checkbox-title {
+  display: grid;
+  gap: var(--indent-s);
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-4-subform .custom-button {
+  color: var(--color-white);
+}
+
+.sign-up-for-a-lesson .sign-up-for-a-lesson-form .section-4-subform .custom-button:hover {
+  background-color: var(--color-black);
+  transition: all 300ms ease-out;
+}
+
+

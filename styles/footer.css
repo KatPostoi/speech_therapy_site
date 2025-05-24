@@ -1,0 +1,67 @@
+.footer .cards-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--indent-s);
+  justify-content: space-between;
+}
+
+.footer .cards-wrapper_main{
+  align-items: stretch;
+}
+
+.footer .cards-wrapper_contacts{
+  width: 965px;
+  height: 220px;
+}
+
+.footer .cards-wrapper_column{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .card{
+  border-radius: 25px;
+  background-color: var(--color-white);
+  padding: 50px;
+}
+
+.footer .card_slogan{
+  height: 220px;
+  flex-grow: 1;
+}
+
+.footer .card_telephone{
+  width: 488px;
+  height: 220px;
+}
+
+.footer .card_address{
+  width: 467px;
+  height: 220px;
+}
+
+.footer .card_navigation{
+  width: 495px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--indent-s);
+  padding: 50px;
+  flex-grow: 1;
+}
+
+.footer .card_social{
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .card_telephone-title, 
+.footer .card_address-title{
+  color: var(--color-blue);
+}
+
+
